@@ -1,0 +1,55 @@
+# Data directories
+data/
+
+# Build directories
+build/
+*/build/
+*/*/build/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.cmake
+!CMakeLists.txt
+
+# Compiled binaries
+*.out
+*.exe
+*.o
+*.so
+*.dylib
+*.dll
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+venv/
+env/
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+/tmp/
+
+# Output files
+*.csv
+!example_data.txt
+*.txt
+!requirements.txt
+!CMakeLists.txt
+!readme.txt
+!README.txt
+
+# Shared memory (if not cleaned up)
+/dev/shm/step_*
